@@ -4006,6 +4006,146 @@ figure.highlight pre .javascript .function {
   -ms-transform: translateY(10px);
   transform: translateY(10px);
 }
+.recent-post-item {
+  background: rgba(255,255,255,0.75) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+mobile()
+}
+.recent-post-item:hover {
+  background: rgba(255,255,255,0.85) !important;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+[data-theme="dark"] .recent-post-item {
+  background: rgba(18,18,18,0.75) !important;
+}
+[data-theme="dark"] .recent-post-item:hover {
+  background: rgba(25,25,25,0.85) !important;
+}
+.recent-post-item .post-title a {
+  color: #2c3e50;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+}
+[data-theme="dark"] .recent-post-item .post-title a {
+  color: #e0e0e0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+.recent-post-item .post-meta {
+  color: #7f8c8d;
+}
+[data-theme="dark"] .recent-post-item .post-meta {
+  color: #b0b0b0;
+}
+.recent-post-item .post-content {
+  color: #34495e;
+}
+[data-theme="dark"] .recent-post-item .post-content {
+  color: #d0d0d0;
+}
+#post {
+  background: rgba(255,255,255,0.85) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  -webkit-box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin-top: 20px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+mobile()
+}
+[data-theme="dark"] #post {
+  background: rgba(18,18,18,0.85) !important;
+  -webkit-box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+}
+#post:hover {
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.card-widget {
+  background: rgba(255,255,255,0.75) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 20px;
+mobile()
+}
+[data-theme="dark"] .card-widget {
+  background: rgba(25,25,25,0.75) !important;
+  -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.card-widget:hover {
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.85) !important;
+}
+[data-theme="dark"] .card-widget:hover {
+  background: rgba(30,30,30,0.85) !important;
+  -webkit-box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+.card-widget .card-content {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(200,200,200,0.3);
+}
+[data-theme="dark"] .card-widget .card-content {
+  border-bottom: 1px solid rgba(80,80,80,0.3);
+}
+.card-widget .card-content .item-headline {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+[data-theme="dark"] .card-widget .card-content .item-headline {
+  color: #e0e0e0;
+}
+.card-widget .card-content .item-headline i {
+  margin-right: 8px;
+  color: #3498db;
+}
+[data-theme="dark"] .card-widget .card-content .item-headline i {
+  color: #1abc9c;
+}
+.card-widget .card-content > div:not(:first-child),
+.card-widget .card-content > ul,
+.card-widget .card-content > ol {
+  padding: 15px 20px;
+}
 #pagination .pagination {
   margin-top: 20px;
   text-align: center;
